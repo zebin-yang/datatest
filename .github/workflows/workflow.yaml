@@ -1,0 +1,11 @@
+name: push test
+on: 
+  push
+  # :
+  #   paths:
+  #     - '/home/azureuser/datatest/data/data.xml.dvc'
+jobs:
+  run:
+    runs-on: [ubuntu-latest]
+    steps:
+      - run: echo 'Hello World! push'
