@@ -1,9 +1,8 @@
 name: push test
 on: 
-  push
-  # :
-  #   paths:
-  #     - '/home/azureuser/datatest/data/data.xml.dvc'
+  push:
+    paths:
+      - 'data/data.xml.dvc'
 jobs:
   run:
     runs-on: [ubuntu-latest]
