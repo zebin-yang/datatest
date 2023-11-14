@@ -1,0 +1,5 @@
+outs:
+- md5: 8ae6c6a7455feecca06f8c8c04d7e677
+  size: 805
+  hash: md5
+  path: test.gif
