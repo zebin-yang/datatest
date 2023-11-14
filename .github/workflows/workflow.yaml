@@ -2,7 +2,7 @@ name: push test
 on: 
   push:
     paths:
-      - 'data/data.xml.dvc'
+      - 'data/*'
 jobs:
   run:
     runs-on: [ubuntu-latest]
